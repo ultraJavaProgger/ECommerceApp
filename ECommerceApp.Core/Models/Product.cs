@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }          // уникальный идентификатор
         public string Name { get; set; }     // название
-        public decimal Price { get; set; }   // цена
+        public decimal Price { get; set; }   // ценa
 
         public Product(int id, string name, decimal price)
         {
