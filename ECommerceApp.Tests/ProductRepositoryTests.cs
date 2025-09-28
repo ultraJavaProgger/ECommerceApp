@@ -25,7 +25,7 @@ namespace ECommerceApp.Tests
         [Fact]
         public void GetById_ShouldReturnCorrectProduct()
         {
-            // Arrange
+            // Arrangе
             var repo = new ProductRepository();
             var p1 = new Product(1, "Laptop", 50000);
             var p2 = new Product(2, "Mouse", 1000);
